@@ -31,6 +31,8 @@ public class stringExercise
 						System.out.print(letter + " ");
 					}
 
+				System.out.println();
+				
 				// challenge three
 				
 				
@@ -73,10 +75,12 @@ public class stringExercise
 
 				for (int i = 0; i < fLength; i++)
 					{
-						String letter = alphabet.substring(i, i++);
+						
+						String letter = alphabet.substring(i, i + 1);
 						if (letter.equals(" "))
 							{
 								numberOfSpaces++;
+								
 							}
 					}
 
